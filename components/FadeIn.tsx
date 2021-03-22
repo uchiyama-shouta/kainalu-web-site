@@ -35,7 +35,7 @@ const FadeIn: VFC<Props> = (props) => {
 		<>
 			<div
 				ref={ref}
-				style={{ transition: `${duration}`, opacity: flag ? 1 : 0 }}
+				style={{ transition: `opacity ${duration}`, opacity: flag ? 1 : 0 }}
 			>
 				{children}
 			</div>
