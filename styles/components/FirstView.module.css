@@ -1,0 +1,40 @@
+.container {
+	height: calc(100vh - 65px);
+	width: 100%;
+}
+
+.imageArea {
+	width: 100vw;
+	height: calc(100vh - 65px);
+	position: relative;
+}
+
+.image {
+	position: relative;
+	filter: opacity(60%);
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -100%);
+}
+
+.center {
+	text-align: center;
+}
+.companyName {
+	width: auto;
+	color: #fff;
+	text-shadow: 0px 5px 10px #000;
+	opacity: 0.9;
+	font-size: 70px;
+	font-weight: 200;
+	white-space: nowrap;
+}
+.keyword {
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.9);
+	text-shadow: 0px 2px 7px #000;
+}

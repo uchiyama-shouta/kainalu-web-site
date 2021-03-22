@@ -1,0 +1,32 @@
+.flex {
+	display: flex;
+	width: 100vw;
+	height: 500px;
+}
+
+.left {
+	flex-basis: 40%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.right {
+	flex-basis: 60%;
+	height: 500px;
+	position: relative;
+}
+
+.image {
+	width: 100%;
+	filter: opacity(60%);
+}
+ 
+@media screen and (max-width:480px) {
+	.flex {
+		display: flex;
+		flex-direction: column;
+	}
+	
+}
